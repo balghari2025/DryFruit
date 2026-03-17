@@ -9,8 +9,8 @@ function Navbar() {
 
   return (
     <>
-      <nav className="relative bg-(--color-primary) dark:bg-[#110b06] text-white m-2 md:rounded-md">
-        <div>
+      <nav className="relative bg-(--color-primary) dark:bg-[#110b06] text-white m-0.5 md:rounded-md">
+        
           <div className="container px-1 md:px-4 mx-auto">
             <div className="flex items-center justify-between p-4">
               {/* logo section */}
@@ -99,7 +99,7 @@ function Navbar() {
 
             </div>
           </div>
-        </div>
+        
       </nav>
 
     </>
