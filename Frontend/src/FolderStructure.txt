@@ -1,0 +1,82 @@
+dry-fruit-ecommerce
+│
+├── backend
+│   ├── config
+│   │   └── db.js
+│   │
+│   ├── controllers
+│   │   ├── authController.js
+│   │   ├── productController.js
+│   │   ├── orderController.js
+│   │   └── userController.js
+│   │
+│   ├── models
+│   │   ├── User.js
+│   │   ├── Product.js
+│   │   ├── Order.js
+│   │   └── Review.js
+│   │
+│   ├── routes
+│   │   ├── authRoutes.js
+│   │   ├── productRoutes.js
+│   │   ├── orderRoutes.js
+│   │   └── userRoutes.js
+│   │
+│   ├── middleware
+│   │   ├── authMiddleware.js
+│   │   └── errorMiddleware.js
+│   │
+│   ├── utils
+│   │   └── generateToken.js
+│   │
+│   ├── uploads
+│   │
+│   ├── server.js
+│   └── .env
+│
+│
+├── frontend
+│   ├── public
+│   │   └── images
+│   │
+│   ├── src
+│   │   ├── assets
+│   │   │   └── images
+│   │   │
+│   │   ├── components
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── ProductCard.jsx
+│   │   │   └── Loader.jsx
+│   │   │
+│   │   ├── pages
+│   │   │   ├── Home.jsx
+│   │   │   ├── Products.jsx
+│   │   │   ├── ProductDetails.jsx
+│   │   │   ├── Cart.jsx
+│   │   │   ├── Checkout.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
+│   │   │
+│   │   ├── redux
+│   │   │   ├── store.js
+│   │   │   └── slices
+│   │   │       ├── productSlice.js
+│   │   │       ├── cartSlice.js
+│   │   │       └── userSlice.js
+│   │   │
+│   │   ├── services
+│   │   │   └── api.js
+│   │   │
+│   │   ├── utils
+│   │   │   └── helpers.js
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   └── package.json
+│
+│
+├── package.json
+├── README.md
+└── .gitignore

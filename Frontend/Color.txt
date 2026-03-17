@@ -1,0 +1,127 @@
+# Dry Fruit Ecommerce – Color Palette Documentation
+
+## 1️⃣ Primary Color
+
+**Hex Code:** `#8B5E3C`
+**Description:** Main brand color (Warm Brown)
+
+**Use for:**
+
+* Navbar background
+* Main buttons (Add to Cart / Buy Now)
+* Logo color
+* Important links
+* Section headings highlight
+
+**Example UI:**
+
+* Add to Cart button
+* Navigation bar
+
+---
+
+## 2️⃣ Accent Color
+
+**Hex Code:** `#E8B85A`
+**Description:** Highlight / attention color (Golden)
+
+**Use for:**
+
+* Discount badge
+* Sale banner
+* Special offers
+* Important highlights
+
+**Example UI:**
+
+* “50% OFF” tag
+* Promotional banner
+
+---
+
+## 3️⃣ Secondary Color
+
+**Hex Code:** `#6A994E`
+**Description:** Supporting color (Natural Green)
+
+**Use for:**
+
+* Category tags
+* Organic / healthy labels
+* Small buttons
+* Icons
+
+**Example UI:**
+
+* “Organic” badge
+* Category highlight
+
+---
+
+## 4️⃣ Background Color
+
+**Hex Code:** `#F7F6F4`
+**Description:** Main website background
+
+**Use for:**
+
+* Page background
+* Sections background
+* Product listing area
+
+**Example UI:**
+
+* Website body background
+* Product grid section
+
+---
+
+## 5️⃣ Text Color
+
+**Hex Code:** `#1F2933`
+**Description:** Main readable text color
+
+**Use for:**
+
+* Product names
+* Descriptions
+* Prices
+* Headings
+
+**Example UI:**
+
+* Product title
+* Paragraph text
+
+---
+
+# 🎨 Color Usage Rule (Professional Design Rule)
+
+Use **60-30-10 rule**
+
+* **60%** → Background color
+* **30%** → Primary color
+* **10%** → Accent color
+
+This keeps the design balanced and professional.
+
+---
+
+# 🧑‍💻 Example Usage in UI
+
+Navbar → Primary Color
+Buttons → Primary Color
+Discount Tags → Accent Color
+Category Labels → Secondary Color
+Background → Background Color
+Text → Text Color
+
+---
+
+# Example Tailwind Usage
+
+```html
+<button class="bg-[--color-primary] text-white px-4 py-2 rounded">
+Add to Cart
+</button>
+```

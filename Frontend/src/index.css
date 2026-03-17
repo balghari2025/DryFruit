@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+ :root {
+  --color-primary: #8B5E3C;
+  --color-accent: #E8B85A;
+  --color-secondary: #6A994E;
+  --color-bg: #F7F6F4;
+  --color-dark: #1F2933;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.light-theme{
+  background: white;
+  color: black;
+}
+
+.dark-theme{
+  background: #1F2933;
+  color: white;
+}
+/* Base styles (mobile) - sabse pehle likho */
+.Navmenu {
+  display: none; /* mobile pe menu chhupa */
+}
+
+.nav-icons button {
+  font-size: 1.25rem; /* 20px - mobile pe chhota */
+}
+
+.logo h1 {
+  font-size: 1rem; /* 16px */
+}
+
+/* Small devices (phones, 640px and up) */
+@media (min-width: 640px) {
+  .nav-menu {
+    display: block; /* ab dikhao */
+  }
+  
+  .nav-icons button {
+    font-size: 1.5rem; /* 24px */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .logo h1 {
+    font-size: 1.5rem; /* 24px */
+  }
+  
+  .nav-icons {
+    gap: 1rem; /* space-x-4 */
+  }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+/* index.css */
+
+/* Base (mobile first) */
+.navbar-container {
+  padding-left: 0.25rem;  /* px-1 */
+  padding-right: 0.25rem;
+}
+
+.navbar-logo h1 {
+  font-size: 16px;  /* text-[16px] */
+}
+
+.navbar-menu {
+  display: none;  /* hidden on mobile */
+}
+
+.navbar-icons button {
+  font-size: 1.25rem;  /* text-xl */
+  margin-left: 1rem;    /* ml-4 */
+}
+
+.navbar-auth {
+  display: none;  /* login/signup hidden on mobile */
+}
+
+/* Medium screens (768px and up) */
+@media (min-width: 768px) {
+  .navbar-container {
+    padding-left: 0.5rem;   /* md:px-2 */
+    padding-right: 0.5rem;
+  }
+
+  .navbar-logo h1 {
+    font-size: 1.5rem;      /* md:text-2xl */
+  }
+
+  .navbar-menu {
+    display: block;          /* md:block */
+  }
+
+  .navbar-icons button {
+    font-size: 1.5rem;       /* md:text-2xl */
+    margin-left: 1.5rem;      /* md:mr-6 (but margin-right) */
+  }
+
+  .navbar-auth {
+    display: block;           /* show login/signup */
+  }
+
+  .navbar-auth button {
+    font-size: 1rem;
+    padding-left: 1.5rem;     /* md:px-6 */
+    padding-right: 1.5rem;
+  }
+}
