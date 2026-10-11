@@ -32,4 +32,8 @@ const Navmenu = [
     // }
 
 ]
+a = 23;
+function(){
+    runcd()
+}
 export default Navmenu
